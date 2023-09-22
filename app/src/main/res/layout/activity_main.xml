@@ -8,124 +8,171 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:columnCount="4"
-        android:rowCount="4">
+    <TextView
+        android:height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="teste"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/um"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/dois"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/tres"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/quatro"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/cinco"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/seis"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/sete"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/oito"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/nove"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/dez"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/onze"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/doze"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/treze"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/catorze"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/quinze"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </ImageView>
 
         <ImageView
-            android:id="@+id/dezesseis"
-            android:layout_width="50dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/tux" />
-    </GridLayout>
-
+            android:src="@drawable/tux"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </ImageView>
+    </LinearLayout>
 </LinearLayout>

@@ -9,12 +9,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:height="0dp"
+        android:layout_height="0dp"
         android:layout_width="match_parent"
         android:layout_weight="1"
-        android:text="teste"
-        android:textSize="50dp"
-        android:textAlignment="center"
+        android:text="3"
+        android:textSize="50sp"
+        android:gravity="center"
         >
 
     </TextView>
@@ -23,77 +23,95 @@
         android:layout_height="0dp"
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:layout_margin="20dp">
 
         <ImageView
+            android:id="@+id/image00"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image01"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image02"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image03"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
     </LinearLayout>
 
     <LinearLayout
+        android:layout_margin="20dp"
         android:layout_height="0dp"
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:layout_weight="1">
 
         <ImageView
+            android:id="@+id/image10"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image11"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image12"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image13"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
     </LinearLayout>
@@ -103,37 +121,46 @@
         android:layout_height="0dp"
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:layout_margin="20dp">
 
         <ImageView
+            android:id="@+id/image20"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image21"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image22"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image23"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
     </LinearLayout>
@@ -142,37 +169,46 @@
         android:layout_height="0dp"
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:layout_margin="20dp">
 
         <ImageView
+            android:id="@+id/image30"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image31"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image32"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
 
         </ImageView>
 
         <ImageView
+            android:id="@+id/image33"
             android:src="@drawable/tux"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
         </ImageView>
     </LinearLayout>
 </LinearLayout>

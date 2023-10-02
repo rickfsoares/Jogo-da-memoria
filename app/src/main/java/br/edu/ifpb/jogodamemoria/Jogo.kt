@@ -5,6 +5,8 @@ import android.os.CountDownTimer
 class Jogo {
     var distros: MutableList<Int>
 
+    private var pontuacao: Int = 8
+
     init {
         this.distros = mutableListOf(
             R.drawable.arch_logo,
@@ -28,15 +30,15 @@ class Jogo {
         this.distros.shuffle()
     }
 
-    fun timer() {
-        var countDownTimer = object: CountDownTimer(3000, 1000) {
-            override fun onTick(p0: Long) {
-                TODO("Not yet implemented")
-            }
-            override fun onFinish() {
-                TODO("Not yet implemented")
-            }
-        }
+    fun getPontuacao(): Int {
+        return this.pontuacao
     }
 
+    fun decrementarPontuacao() {
+        this.pontuacao -= 1
+    }
+
+    fun resetarPontuacao() {
+        pontuacao = 8
+    }
 }

@@ -1,5 +1,6 @@
 package br.edu.ifpb.jogodamemoria
 
+import android.content.Intent
 import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -28,6 +29,25 @@ class MainActivity : AppCompatActivity() {
         this.listImage = mutableListOf()
 
         this.numeroTentativas = findViewById(R.id.tvNumeroTentativas)
+
+        montarMatriz()
+
+        object : CountDownTimer(3000, 1000) {
+            override fun onTick(p0: Long) {
+                //
+            }
+
+            override fun onFinish() {
+                cobrirCartas()
+            }
+        }.start()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        this.numeroTentativas.text = "5"
+        this.jogo.resetarPontuacao()
+        this.jogo.embaralhar()
 
         montarMatriz()
 
@@ -138,13 +158,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun venceu() {
         this.jogo.decrementarPontuacao()
-        if (this.jogo.getPontuacao() == 0)
-            Log.i("APP-MEMORIA", "Venceu")
+        if (this.jogo.getPontuacao() == 0) {
+            val intent = Intent(this, VitoriaActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun perdeu(numeroTentivas: Int) {
-        if (numeroTentivas == 0)
-            Log.i("APP-MEMORIA", "Perdeu")
+        if (numeroTentivas == 0) {
+            val intent = Intent(this, PerdeuActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }

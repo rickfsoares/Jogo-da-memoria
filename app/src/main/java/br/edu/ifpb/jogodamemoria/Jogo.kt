@@ -41,4 +41,8 @@ class Jogo {
     fun resetarPontuacao() {
         pontuacao = 8
     }
+
+    fun embaralhar() {
+        this.distros.shuffle()
+    }
 }
